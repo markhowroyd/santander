@@ -1,0 +1,14 @@
+server:
+    port : 8081
+    shutdown: graceful
+
+logging:
+    level:
+        org.springframework: INFO
+        com.mhit: DEBUG
+
+# Nooz-mock configs
+
+mock-newscatcher-service:
+    single-page-response: true
+
